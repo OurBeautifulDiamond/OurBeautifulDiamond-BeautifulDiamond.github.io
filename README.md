@@ -1,1 +1,0 @@
-# OurBeautifulDiamond-BeautifulDiamond.github.io
