@@ -1,6 +1,20 @@
 * {
   margin: 0;
 }
+@media(max-width: 990px) {
+  nav {
+    display: none;
+  }
+  #logo {
+    width: 100%;
+    padding: 0;
+    height: 70px;
+    line-height: 70px;
+  }
+  #logo h1 {
+    text-align: center;
+  }
+}
 :lang(ko) {
   word-break: keep-all;
 }
@@ -14,19 +28,21 @@ header {
   position: fixed;
   top: 0;
 }
-#logo {
-  float: left;
-  width: 200px;
-  height: 70px;
-  padding-left: 40px;
-  line-height: 70px;
+@media(min-width: 990px) {
+  #logo {
+    float: left;
+    width: 200px;
+    height: 70px;
+    padding-left: 40px;
+    line-height: 70px;
+  }
+  #logo h1:hover {
+    text-shadow: 200px 0px 1px #969696;
+    transition: 2s ease;
+  }
 }
 #logo h1 {
   font-size: 45px;
-}
-#logo h1:hover {
-  text-shadow: 200px 0px 1px #969696;
-  transition: 2s ease;
 }
 #logo > h1 > a {
   color: white;
