@@ -110,14 +110,26 @@ main {
   background: url(../images/bg_03.png) no-repeat;
   background-size: contain;
 }
-.test_02 {
+.middle-content {
   background-color: white;
   width: 100%;
-  height: 300px;
+}
+.typography-keyfeatures {
+  font-size: 140%;
+  line-height: 150%;
+  color: #86868b;
+  padding: 5% 10%;
+  text-align: right;
+}
+.typography-keyfeatures strong {
+  color: #1d1d1f;
 }
 footer {
-  background-color: white;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
   font-size: 100%;
   text-align: center;
   padding: 1%;
+  position: fixed;
+  bottom: 0;
 }
