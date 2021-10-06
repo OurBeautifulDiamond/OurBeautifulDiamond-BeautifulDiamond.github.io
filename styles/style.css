@@ -143,8 +143,5 @@ footer {
 }
 .trackImageLink ul li img {
   width: 100%;
-  background-size: cover;
-}
-.trackImageLink ul img:hover {
-  background-color: black;
+  background-size: contain;
 }
