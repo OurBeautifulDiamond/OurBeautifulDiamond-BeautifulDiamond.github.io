@@ -1,7 +1,6 @@
 * {
   margin: 0;
   font-family: 'Nanum Gothic', sans-serif;
-  font-family: 'Noto Sans KR', sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR:wght@300&display=swap');
 @media(max-width: 990px) {
@@ -136,15 +135,22 @@ footer {
   position: fixed;
   bottom: 0;
 }
-.trackWrapper {
-  width: 100%;
-  background-color: rgb(0, 0, 0);
-}
 .trackImageLink ul {
   padding: 0;
+}
+.trackImageLink li {
   list-style: none;
-  text-align: center;
 }
 .trackImageLink ul li img {
-  width: 99%;
+  width: 100%;
+}
+.typography-keyfeatures-last {
+  font-size: 140%;
+  line-height: 150%;
+  color: #86868b;
+  padding: 5% 10%;
+  text-align: center;
+}
+.typography-keyfeatures-last strong {
+  color: #1d1d1f;
 }
