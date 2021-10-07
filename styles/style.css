@@ -154,3 +154,6 @@ footer {
 .typography-keyfeatures-last strong {
   color: #1d1d1f;
 }
+#disqus_thread {
+  padding: 10px;
+}
