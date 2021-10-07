@@ -1,6 +1,9 @@
 * {
   margin: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR:wght@300&display=swap');
 @media(max-width: 990px) {
   nav {
     display: none;
